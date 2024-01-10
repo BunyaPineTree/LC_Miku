@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HatsuneMikuModelReplacement", "HatsuneMikuModelReplacement.csproj", "{3AB93509-AAFD-45B0-80CF-5D212BD4B939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelReplacementAPI", "..\..\ModelReplacementAPI\ModelReplacementAPI\ModelReplacementAPI.csproj", "{A1FB32C5-48F9-4FC0-9F1D-7A4728A54A72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AB93509-AAFD-45B0-80CF-5D212BD4B939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB93509-AAFD-45B0-80CF-5D212BD4B939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB93509-AAFD-45B0-80CF-5D212BD4B939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB93509-AAFD-45B0-80CF-5D212BD4B939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FB32C5-48F9-4FC0-9F1D-7A4728A54A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FB32C5-48F9-4FC0-9F1D-7A4728A54A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FB32C5-48F9-4FC0-9F1D-7A4728A54A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FB32C5-48F9-4FC0-9F1D-7A4728A54A72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AED59D8-CE54-4266-8C78-B4635A873228}
+	EndGlobalSection
+EndGlobal

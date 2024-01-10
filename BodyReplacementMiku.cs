@@ -20,11 +20,8 @@ namespace HatsuneMikuModelReplacement
             "Transparent"
         };
 
-
-        //Required universally
         protected override GameObject LoadAssetsAndReturnModel()
         {
-            //Replace with the Asset Name from your unity project 
             string model_name = "HatsuneMikuNT";
             var model = Assets.MainAssetBundle.LoadAsset<GameObject>(model_name);
 

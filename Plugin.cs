@@ -81,7 +81,6 @@ namespace HatsuneMikuModelReplacement
     }
     public static class Assets
     {
-        // Replace mbundle with the Asset Bundle Name from your unity project 
         public static string mainAssetBundleName = "mbundle";
         public static AssetBundle MainAssetBundle = null;
 
@@ -90,7 +89,6 @@ namespace HatsuneMikuModelReplacement
         {
             if (MainAssetBundle == null)
             {
-                //Console.WriteLine(GetAssemblyName() + "." + mainAssetBundleName);
                 using (var assetStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(GetAssemblyName() + "." + mainAssetBundleName))
                 {
                     MainAssetBundle = AssetBundle.LoadFromStream(assetStream);
